@@ -1,18 +1,20 @@
-﻿//// 3) Faça um programa para pagamento de comissão de vendedores de peças, levando-se em consideração que sua
-//comissão será de 5% do total da venda e que você tem os seguintes dados:
-//-Identificação do vendedor
-//- Código da peça
-//- Preço unitário da peça
-//- Quantidade vendida 
+﻿//Ler quatro valores numéricos inteiros e apresentar o resultado dois a dois da adição e multiplicação entre os
+//valores lidos, baseando-se na utilização do conceito de propriedade distributiva.
+
+//Dica: se forem lidas as variáveis A, B, C e D, devem ser somados e multiplicados os valores
+//de A com B, A com C e A com D; depois B com C, B com D e por último C com D.
+//Note que para cada operação serão utilizadas seis combinações.
+//Assim sendo,devem ser realizadas doze operações de processamento, sendo seis para as adições e seis para as
+//multiplicações
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercicio02
+namespace Exercicio04
 {
-    public class LerCotacaoDolar
+    public class LerValoresInteiros
     {
         static void Main(string[] args)
         {
